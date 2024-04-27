@@ -62,7 +62,10 @@ img,
 
 @media (max-width:767px) {
     .col-md-3 img{
-        height: 50%;
+        height: 70%;
+    }
+    .col-md-3 {
+        height: 300px;
 
     }    
 }
