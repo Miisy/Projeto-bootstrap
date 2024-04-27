@@ -1,0 +1,68 @@
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    font-family: "Indie Flower", cursive;
+}
+body{
+background-color:#ffd195
+
+}
+h1{
+    color: #16130a;
+    text-decoration: dotted;
+}
+.dancing{
+    font-family: "Dancing Script", cursive;
+}
+.background-creme{
+    background-color: #f7bc64a4;
+}
+.nav-bar{
+    background-color: #806667b9;
+}
+.nav .nav-link.active{
+    background-color:#ffe7bf;
+    color: #47292a;
+    overflow: hidden;
+    border-radius: 5PX;
+}
+.nav .nav-link,
+header .nav-item{
+    background-color:#3a2d19;
+    color: #f8e8d2;
+}
+.card-body{
+    background-color: #3a2d19;
+    color: #f8e8d2;
+}
+img,
+.card img{
+    object-fit: cover;
+}
+#fale-conosco button{
+    border-color: #16130a;
+    background-color: #f8e8d2;
+}
+#fale-conosco button:hover{
+    background-color: #ffd195;
+}
+#o-espaco,
+#fale-conosco{
+    background-color:#ffe7bf;
+}
+
+@media (max-width:767px) {
+    .col-md-3 img{
+        height: 50%;
+
+    }    
+}
